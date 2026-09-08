@@ -1,0 +1,12 @@
+# Dependencias
+node_modules/
+
+# Archivos de compilación
+dist/
+
+# Cobertura de pruebas (generada dinámicamente en CI)
+coverage/
+
+# Archivos de entorno y logs
+*.log
+.DS_Store
