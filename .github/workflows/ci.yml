@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install dependencies (Reproducible)
+        run: pnpm install --frozen-lockfile
 
       - name: Run Vitest with coverage gate
         run: pnpm test:coverage
