@@ -9,7 +9,7 @@ API de reservación de salas desarrollada en **TypeScript** aplicando **Clean Ar
 
 ---
 
-## 🏛️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 El proyecto sigue estrictamente la separación de responsabilidades de **Clean Architecture**:
 
@@ -43,7 +43,7 @@ ReservaYa/
 
 ---
 
-## 🚀 Comportamientos y Reglas de Negocio
+##  Comportamientos y Reglas de Negocio
 
 1. **Registrar Salas (`registerRoom`)**: Valida que el nombre de la sala no esté vacío y que la capacidad sea estrictamente positiva (`> 0`).
 2. **Crear Reservación (`createReservation`)**:
@@ -57,7 +57,7 @@ ReservaYa/
 
 ---
 
-## 💻 Instalación y Comandos Locales
+## Instalación y Comandos Locales
 
 ### Requisitos
 - **Node.js** v20 o v24
@@ -83,7 +83,7 @@ ReservaYa/
 
 ---
 
-## 📊 Reporte de Cobertura de Código
+## Reporte de Cobertura de Código
 
 | Métrica | Cobertura Obtenida | Umbral Mínimo |
 | :--- | :---: | :---: |
@@ -94,7 +94,7 @@ ReservaYa/
 
 ---
 
-## ⚙️ Integración Continua (GitHub Actions)
+## Integración Continua (GitHub Actions)
 
 El archivo [`.github/workflows/ci.yml`](.github/workflows/ci.yml) automatiza las verificaciones en cada `push` o `pull_request` a las ramas principales:
 
@@ -109,7 +109,7 @@ El archivo [`.github/workflows/ci.yml`](.github/workflows/ci.yml) automatiza las
 
 ---
 
-## 📝 Guía para la Entrega de Evaluación (Canvas PDF)
+## Guía de Evaluación
 
 ### Respuestas Teóricas
 
