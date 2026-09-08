@@ -4,7 +4,6 @@
   "description": "API de reservación de salas con Clean Architecture y Vitest",
   "main": "src/index.ts",
   "type": "module",
-  "packageManager": "pnpm@9.15.0",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
